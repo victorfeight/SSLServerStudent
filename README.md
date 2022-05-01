@@ -1,3 +1,16 @@
+tl;dr: 
+To let this application run in HTTPS, I needed a certificate.
+
+**In production-grade applications, certificates are issued from renowned Certification Authorities (CA) to ensure that our application is a trusted entity.**
+
+However, as this is an example, I'll use a Self-Signed Certificate for the application.
+
+We can create one using Java **keytool** utility to create and manage certificates locally.
+
+keytool is available in JDK_HOME/bin directory.
+
+------
+
 Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
 Artemis
 
